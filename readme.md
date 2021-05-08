@@ -1,13 +1,13 @@
 # Introduction
 
-**NOTE: The creator is NOT responsible for whatever you do. These codes have been desgned to not have any long lasting effects. The creator is not responsible for any bugs or glitches which might harm your device**
+**NOTE: The creator is NOT responsible for whatever you do. These codes have been designed to not have any long lasting effects. The creator is not responsible for any bugs or glitches which might harm your device**
 
 <br>
 
 Just a smoll collection of harmless malwares which you can use to troll people. Read further to find out what each program does
 
 # Program Information
-## photo_rotater.py
+## photo-rotater.py
 <br>
 
 **Required Modules:** opencv-python. To install it, run the following commands in the command prompt/terminal:
@@ -23,7 +23,7 @@ pip3 install opencv-python
 ```
 <br>
 
-**What does it do:** It basically rotates all the images in certain paths 90° anti-clockwise. It goes through the images in the below paths:
+**What does it do:** It basically rotates all the images in certain paths 90° anti-clockwise. It goes through the images in the following paths:
 
 (On Windows)
 
@@ -45,3 +45,48 @@ pip3 install opencv-python
 
 **How to reverse the changes:** Either run it 3 more times, or run photo-rotater-cure.py
 
+<br>
+
+**NOTE: Please do not stop the execution in the middle, because if you do so, only some images would be rotated and you will have to un-rotate them manually**
+
+<br>
+
+## linkspam.py
+<br>
+
+**Required Modules:** None
+
+<br>
+
+**What does it do:** It chooses and a random number between 1 and 50 (1 and 50 included) and then, it opens a random link from the following list that number of times:
+
+```https://youtu.be/dQw4w9WgXcQ' # Rickroll
+https://youtu.be/Cj8n4MfhjUc # Spanish Inquisition
+https://youtu.be/Mg02NzsXrJk # Muta laugh
+https://youtu.be/kK7uljnAmQI # Loud Indiam music earrape
+https://youtu.be/vTIIMJ9tUc8 # Tunak Tunak Tun
+https://youtu.be/o_LrHt4Hhhs # Nono square
+https://youtu.be/EKgGSf-xTMg # Denver Laugh
+https://youtu.be/St32aLCNMmQ # Tongo pumped up kicks
+https://youtu.be/0FmzeEcuEos # NO U
+https://youtu.be/feA64wXhbjo # Shooting stars
+https://youtu.be/3ejAMB3g_b8 # Paralyzer
+https://youtu.be/e8jR-t9axFI # BRUH
+https://youtu.be/n2bKLqUKb9w # I am glad I am finally returning home
+https://youtu.be/7yh9i0PAjck # Ievan Polkka
+https://youtu.be/6xUnSVTh8fI # Ameno
+https://youtu.be/GdY8T48Dkh0 # Totinos hot pizza rolls
+https://youtu.be/VJe6LLoGgR8 # The family friendly noose song
+https://youtu.be/g3jCAyPai2Y # Baka Mitai
+https://youtu.be/Hy8kmNEo1i8 # Scatman
+https://youtu.be/MtN1YnoL46Q # The duck song
+https://youtu.be/iuJDhFRDx9M # Tokyo Drift song
+https://youtu.be/J-fXTRHApRc # The trumpet song thingy jazz
+https://youtu.be/3Q8TSrDFG6w # Ratatouille alternative ending
+https://youtu.be/G-T3qKl6y-c # Grubhub song
+https://youtu.be/rR9qUm_WEfg # Weird creepy af "Hi Jim"
+```
+
+<br>
+
+**How to reverse the changes:** Just close all the tabs lol
