@@ -6,8 +6,6 @@
 
 Just a smoll collection of harmless malwares which you can use to troll people. Read further to find out what each program does
 
-<br>
-
 # Program Information
 ## photo_rotater.py
 <br>
@@ -21,7 +19,7 @@ pip install opencv-python
 ```
 (On Mac)
 ```
-pip3 install opencv-python`
+pip3 install opencv-python
 ```
 <br>
 
