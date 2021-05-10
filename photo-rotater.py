@@ -66,4 +66,3 @@ if __name__ == "__main__" :
             f'/Users/{user}/Documents']
     photo_rotater(paths)
     print('\nDONE!')
-

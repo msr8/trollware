@@ -25,7 +25,7 @@ link_list = ['https://youtu.be/dQw4w9WgXcQ', # Rickroll
     'https://youtu.be/Hy8kmNEo1i8', # Scatman
     'https://youtu.be/MtN1YnoL46Q', # The duck song
     'https://youtu.be/iuJDhFRDx9M', # Tokyo Drift song
-    'https://youtu.be/J-fXTRHApRc', # The trumpet song thingy jazz
+    'https://youtu.be/J-fXTRHApRc', # The trumpet song thingy
     'https://youtu.be/3Q8TSrDFG6w', # Ratatouille alternative ending
     'https://youtu.be/G-T3qKl6y-c', # Grubhub song
     'https://youtu.be/rR9qUm_WEfg'  # Weird creepy af "Hi Jim"

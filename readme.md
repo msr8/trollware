@@ -43,7 +43,7 @@ pip3 install opencv-python
 
 <br>
 
-**How to reverse the changes:** Either run it 3 more times, or run photo-rotater-cure.py
+**How to reverse the changes:** Either run it 3 more times, or run `photo-rotater-cure.py`
 
 <br>
 
@@ -81,7 +81,7 @@ https://youtu.be/g3jCAyPai2Y # Baka Mitai
 https://youtu.be/Hy8kmNEo1i8 # Scatman
 https://youtu.be/MtN1YnoL46Q # The duck song
 https://youtu.be/iuJDhFRDx9M # Tokyo Drift song
-https://youtu.be/J-fXTRHApRc # The trumpet song thingy jazz
+https://youtu.be/J-fXTRHApRc # The trumpet song thingy
 https://youtu.be/3Q8TSrDFG6w # Ratatouille alternative ending
 https://youtu.be/G-T3qKl6y-c # Grubhub song
 https://youtu.be/rR9qUm_WEfg # Weird creepy af "Hi Jim"
@@ -90,3 +90,22 @@ https://youtu.be/rR9qUm_WEfg # Weird creepy af "Hi Jim"
 <br>
 
 **How to reverse the changes:** Just close all the tabs lol
+
+<br>
+
+## epic-rr.py
+<br>
+
+**Required Modules:** None
+
+<br>
+
+**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the user will always be rickrolled when they boot up the computer. They will also be rickrolled every hour their device stays on
+
+<br>
+
+**How to reverse the changes:** Either run `epic-rr-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup_processes.vbs`
+
+<br>
+
+**NOTE: This works only in Windows**
