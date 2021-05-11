@@ -42,15 +42,12 @@ def repeating_rickroll(py_file_path, bat_file_path):
     # Makes the .py file
     with open(py_file_path, 'w') as py_file:
         py_file.write('import webbrowser as wb\nimport time as t\nt.sleep(120)\nwb.open(\'https://youtu.be/dQw4w9WgXcQ\')\nwhile True:\n\tt.sleep(3600)\n\twb.open(\'https://youtu.be/dQw4w9WgXcQ\')')
-        print('py Done')
     # Makes the .bat file
     with open(bat_file_path, 'w') as bat_file:
         bat_file.write(f'python "{py_file_path}"')
-        print('bat Done')
     # Makes the .vbs file
     with open(vbs_file_path, 'w') as vbs_file:
         vbs_file.write(f'Set WshShell = CreateObject("WScript.Shell")\nWshShell.Run chr(34) & "{bat_file_path}" & Chr(34), 0\nSet WshShell = Nothing')
-        print('vbs Done')
 
 
 
