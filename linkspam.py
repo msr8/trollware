@@ -4,7 +4,11 @@ def linkspam(lis, times):
     for _ in range(times):
         wb.open_new( r.choice(lis) )
 
-link_list = ['https://youtu.be/dQw4w9WgXcQ', # Rickroll
+
+
+if __name__ == '__main__':
+    import random as r
+    link_list = ['https://youtu.be/dQw4w9WgXcQ', # Rickroll
     'https://youtu.be/Cj8n4MfhjUc', # Spanish Inquisition
     'https://youtu.be/Mg02NzsXrJk', # Muta laugh
     'https://youtu.be/kK7uljnAmQI', # Loud Indiam music earrape
@@ -30,10 +34,6 @@ link_list = ['https://youtu.be/dQw4w9WgXcQ', # Rickroll
     'https://youtu.be/G-T3qKl6y-c', # Grubhub song
     'https://youtu.be/rR9qUm_WEfg'  # Weird creepy af "Hi Jim"
     ]
-
-
-if __name__ == '__main__':
-    import random as r
     rand_int = r.randint(1,50)
     print(rand_int)
     linkspam(link_list, rand_int)

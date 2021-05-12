@@ -20,7 +20,7 @@ def photo_rotater(paths):
                 # Checks if its an image
                 if not (fil.endswith('.png') or fil.endswith('.jpg') or fil.endswith('.jpeg')):
                     continue
-                # Rotates the image 90 degress counter CLOCKWISE
+                # Rotates the image 90 degress CLOCKWISE
                 try:
                     temp_img = cv2.imread( os.path.join(cur_dir,fil) )
                     new_img = cv2.rotate(temp_img, cv2.cv2.ROTATE_90_CLOCKWISE)

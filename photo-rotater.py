@@ -28,30 +28,30 @@ def photo_rotater(paths):
                 except:
                     continue
 
-def get_user():
-    try:
-        ret = gp.getuser()
-    except:
-        try:
-            if pf.system() == 'Darwin':
-                temp_list = os.getcwd().split('/')
-            elif pf.system() == 'Windows':
-                temp_list = os.getcwd().split('\\')
-            ret = temp_list [temp_list.index('Users') + 1]
-        except:
-            try:
-                if pf.system() == 'Darwin':
-                    temp_list = __file__.split('/')
-                elif pf.system() == 'Windows':
-                    temp_list = __file__.split('\\')
-                ret = temp_list [temp_list.index('Users') + 1]
-            except:
-                ret = 'Unable to determine'
-    return ret
-
 
 
 if __name__ == "__main__" :
+    def get_user():
+        try:
+            ret = gp.getuser()
+        except:
+            try:
+                if pf.system() == 'Darwin':
+                    temp_list = os.getcwd().split('/')
+                elif pf.system() == 'Windows':
+                    temp_list = os.getcwd().split('\\')
+                ret = temp_list [temp_list.index('Users') + 1]
+            except:
+                try:
+                    if pf.system() == 'Darwin':
+                        temp_list = __file__.split('/')
+                    elif pf.system() == 'Windows':
+                        temp_list = __file__.split('\\')
+                    ret = temp_list [temp_list.index('Users') + 1]
+                except:
+                    ret = 'Unable to determine'
+        return ret
+
     print('WARNING! DO NOT STOP THE EXECUTION IN THE MIDDLE WHAT SO EVER!\n')
     user = get_user()
     if pf.system == 'Windows':
