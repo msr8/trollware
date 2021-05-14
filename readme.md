@@ -128,4 +128,9 @@ pip3 install opencv-python
 
 **NOTE: Please do not stop the execution in the middle, because if you do so, only some images would be rotated and you will have to un-rotate them manually**
 
+<br>
+
+# How do they work or how do I integrate them into my programs?
+
+If you want to understand more about their working, or customise them for yourself, go to the `Integrations` folder ([here](https://github.com/stupid-melon/harmless-malwares/tree/main/Integrations))
 

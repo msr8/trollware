@@ -6,7 +6,6 @@ This page explains the working of the malwares/cures and what parameters they us
 <br>
 
 # Explanation
-<br>
 
 ## cantdeleteme.py
 <br>
@@ -67,3 +66,9 @@ This page explains the working of the malwares/cures and what parameters they us
 **Parameters Required:** 
 
 ``paths``: List of all paths which the program will go through. Must be a list or a tuple containing strings. For eg: `['C:\Users\User\Desktop', 'C:\Users\User\Pictures']`
+
+<br>
+
+# How do I integrate these into my own program?
+
+You can copy the functions from harmless-malwares.py or import them from there. By doing so, you can customise the parameters and you can integrate these malwares into a logic bomb or a time bomb
