@@ -18,7 +18,7 @@ This page explains the working of the malwares/cures and what parameters they us
 
 ``file_data``: The bytes form of the file that you will be creating constantly, which the victim wont be able to delete
 
-``file_path``: The directory where the file would be created, as well as its name and extension. For eg: `C:\Users\User\Desktop\sus.jpeg`
+``file_path``: The directory where the file would be created, as well as its name and extension. Must be a string. For eg: `"C:\Users\User\Desktop\sus.jpeg"`
 
 ``py_file_path``: The path of the .py file. Must be a string. For eg: `"C:\Users\User\Documents\randomname.py"`
 
