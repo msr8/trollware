@@ -1,10 +1,6 @@
-import platform as pf
-import getpass as gp
-import cv2
-import os
-
-
-def photo_rotater(paths):
+def photo_rotater_cure(paths):
+    import cv2
+    import os
     for main_path in paths:
         # Checks the existence of path
         if not os.path.exists(main_path):
@@ -28,30 +24,35 @@ def photo_rotater(paths):
                 except:
                     continue
 
-def get_user():
-    try:
-        ret = gp.getuser()
-    except:
-        try:
-            if pf.system() == 'Darwin':
-                temp_list = os.getcwd().split('/')
-            elif pf.system() == 'Windows':
-                temp_list = os.getcwd().split('\\')
-            ret = temp_list [temp_list.index('Users') + 1]
-        except:
-            try:
-                if pf.system() == 'Darwin':
-                    temp_list = __file__.split('/')
-                elif pf.system() == 'Windows':
-                    temp_list = __file__.split('\\')
-                ret = temp_list [temp_list.index('Users') + 1]
-            except:
-                ret = 'Unable to determine'
-    return ret
-
 
 
 if __name__ == "__main__" :
+    import platform as pf
+    import getpass as gp
+    import cv2
+    import os
+
+    def get_user():
+        try:
+            ret = gp.getuser()
+        except:
+            try:
+                if pf.system() == 'Darwin':
+                    temp_list = os.getcwd().split('/')
+                elif pf.system() == 'Windows':
+                    temp_list = os.getcwd().split('\\')
+                ret = temp_list [temp_list.index('Users') + 1]
+            except:
+                try:
+                    if pf.system() == 'Darwin':
+                        temp_list = __file__.split('/')
+                    elif pf.system() == 'Windows':
+                        temp_list = __file__.split('\\')
+                    ret = temp_list [temp_list.index('Users') + 1]
+                except:
+                    ret = 'Unable to determine'
+        return ret
+
     print('WARNING! DO NOT STOP THE EXECUTION IN THE MIDDLE WHAT SO EVER!\n')
     user = get_user()
     if pf.system == 'Windows':
@@ -64,5 +65,5 @@ if __name__ == "__main__" :
             f'/Users/{user}/Desktop',
             f'/Users/{user}/Pictures',
             f'/Users/{user}/Documents']
-    photo_rotater(paths)
+    photo_rotater_cure(paths)
     print('\nDONE!')

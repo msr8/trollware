@@ -1,10 +1,6 @@
-import platform as pf
-import getpass as gp
-import cv2
-import os
-
-
 def photo_rotater(paths):
+    import os
+    import cv2
     for main_path in paths:
         # Checks the existence of path
         if not os.path.exists(main_path):
@@ -31,6 +27,10 @@ def photo_rotater(paths):
 
 
 if __name__ == "__main__" :
+    import platform as pf
+    import getpass as gp
+    import cv2
+    import os
     def get_user():
         try:
             ret = gp.getuser()

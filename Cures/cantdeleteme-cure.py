@@ -24,7 +24,12 @@ def cantdeleteme_cure():
                     ret = 'Unable to determine'
         return ret
 
-    os.remove(f'C:\\Users\\{get_user()}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\bootup_processes.vbs')
+    try:
+        os.remove( f'C:\\Users\\{get_user()}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\bootup_processes.vbs' )
+        print('Succesfully removed')
+    except:
+        print('File doesnt exist brah')
+
 
 
 
