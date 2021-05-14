@@ -5,7 +5,6 @@ def photo_rotater(paths):
         # Checks the existence of path
         if not os.path.exists(main_path):
             continue
-        print(f'{main_path}......')
 
         # Goes thro every image in the folder and subfolders
         for cur_dir , _ , files in os.walk(main_path):
