@@ -16,7 +16,7 @@ This page explains the working of the malwares/cures and what parameters they us
 
 **Parameters Required:** 
 
-``file_data``: The bytes form of the file that you will be creating constantly, which the victim wont be able to delete
+``file_data``: The bytes form of the file that you will be creating constantly, which the victim wont be able to delete. Must be a string in bytes format. For eg: `b"hello"`
 
 ``file_path``: The directory where the file would be created, as well as its name and extension. Must be a string. For eg: `"C:\Users\User\Desktop\sus.jpeg"`
 
