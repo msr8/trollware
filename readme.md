@@ -4,7 +4,7 @@
 
 <br>
 
-Just a smoll collection of harmless malwares which you can use to troll people. Read further to find out what each program does
+Just a smoll collection of trollware (malwares which are made to just troll someone, and to not have any long lasting serious damage). Read further to find out what each program does
 
 <br>
 
@@ -17,7 +17,7 @@ Just a smoll collection of harmless malwares which you can use to troll people. 
 
 <br>
 
-**What does it do:** It basically creates a sort of "ghost file", ie a file which will always be there no matter how much you delete it or move it. The program refreshes the file every 5 mins and is automatically set in motion whenever the user boots up their computer. For the base model, the image is a Jerma Sus image with the name `When {user} is sus.jpeg`
+**What does it do:** It basically creates a sort of "ghost file", ie a file which will always be there no matter how much you delete it or move it. The program refreshes the file every 5 mins and is automatically set in motion whenever the user boots up their computer. For the base model, the image is a Jerma Sus image ([this](https://imgur.com/a/tYTIUh9)) with the name `When {user} is sus.jpeg`
 
 <br>
 
@@ -28,11 +28,11 @@ Just a smoll collection of harmless malwares which you can use to troll people. 
 ## epic-rr.py
 <br>
 
-**Required Modules:** None
+**Required Modules:** None (Doesn't even require python once executed)
 
 <br>
 
-**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the user will always be rickrolled when they boot up the computer. They will also be rickrolled every hour their device stays on
+**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the user will always be rickrolled when they boot up the computer
 
 <br>
 

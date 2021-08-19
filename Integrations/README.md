@@ -29,13 +29,11 @@ This page explains the working of the malwares/cures and what parameters they us
 ## epic-rr.py
 <br>
 
-**How it works:** It is very very similar to cantdeleteme.py. First of all, it creates a .py file which waits 2 minutes, and the rickrolls the victim (ie opens up the link https://youtu.be/dQw4w9WgXcQ in the default browser) and then, it rickrolls the user again every hour. Then, it creates a .bat file in your specified location which triggers the .py file. Then lastly, it creates a .vbs file in the startup folder of windows (ie `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`) which triggers the .bat file and then, the .bat file executes the .py file. Now since the .vbs file is in the startup folder, it will be executed everytime the victim boots up the device, thus the python file will always be active in the background whenever the device will be running. Now you might ask why didnt i just put the .py or the .bat file in the startup folder instead of making the 3 different files, that is because if we directly put the .py or .bat files in the startup folder, they open up a console, and thus the user can stop the execution of the program anytime by closing that console window
+**How it works:** It is very very similar to cantdeleteme.py. First, it creates a .bat file in your specified location which rickrolls the user. Then it creates a .vbs file in the startup folder of windows (ie `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`) which triggers the .bat file. Now since the .vbs file is in the startup folder, it will be executed everytime the victim boots up the device, thus the victim will be rickrolled everytime they boot up. Now you might ask why didnt i just put the .bat file in the startup folder instead of making the 2 different files, that is because if we directly put the .bat file in the startup folder, it opens up a console, and thus the user can stop the execution of the program anytime by closing that console window
 
 <br>
 
 **Parameters Required:** 
-
-``py_file_path``: The path of the .py file. Must be a string. For eg: `"C:\Users\User\Documents\randomname.py"`
 
 ``bat_file_path``: The path of the .bat file. Must be a string. For eg: `"C:\Users\User\Documents\randomname.bat"`
 
