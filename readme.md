@@ -25,6 +25,10 @@ Just a smoll collection of trollware (malwares which are made to just troll some
 
 <br>
 
+**NOTE: This works only in Windows**
+
+<br>
+
 ## epic-rr.py
 <br>
 
@@ -37,6 +41,25 @@ Just a smoll collection of trollware (malwares which are made to just troll some
 <br>
 
 **How to reverse the changes:** Either run `epic-rr-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup_processes.vbs`
+
+<br>
+
+**NOTE: This works only in Windows**
+
+<br>
+
+## insult.py
+<br>
+
+**Required Modules:** None
+
+<br>
+
+**What does it do:** The execution is a lil bit complicated but the end result is basically that when you execute it on a device once, the computer will speak out a random insult from evilinsult.com every random interval of time (from 1 second to 30 minutes)
+
+<br>
+
+**How to reverse the changes:** Either run `insult-cure.py` or delete `C:\Users\{User}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\videodrivers.vbs`
 
 <br>
 

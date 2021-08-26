@@ -1,6 +1,6 @@
-def cantdeleteme_cure():
-    import getpass as gp
+def insult_cure():
     import platform as pf
+    import getpass as gp
     import os
 
     def get_user():
@@ -25,10 +25,10 @@ def cantdeleteme_cure():
         return ret
 
     try:
-        os.remove( f'C:\\Users\\{get_user()}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\bootup_processes.vbs' )
+        os.remove( f'C:\\Users\\{get_user()}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\videodrivers.vbs' )
         print('Succesfully removed')
     except:
         print('File doesnt exist brah')
 
 if __name__ == '__main__':
-    cantdeleteme_cure()
+    insult_cure()
